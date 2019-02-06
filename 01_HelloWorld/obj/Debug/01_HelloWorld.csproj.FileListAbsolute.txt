@@ -1,0 +1,7 @@
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\01_HelloWorld\bin\Debug\01_HelloWorld.exe.config
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\01_HelloWorld\bin\Debug\01_HelloWorld.exe
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\01_HelloWorld\bin\Debug\01_HelloWorld.pdb
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\01_HelloWorld\obj\Debug\01_HelloWorld.csprojAssemblyReference.cache
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\01_HelloWorld\obj\Debug\01_HelloWorld.csproj.CoreCompileInputs.cache
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\01_HelloWorld\obj\Debug\01_HelloWorld.exe
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\01_HelloWorld\obj\Debug\01_HelloWorld.pdb
