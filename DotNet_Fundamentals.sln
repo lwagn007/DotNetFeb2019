@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_HelloWorld", "01_HelloWo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetFundamentals_InATestProject", "DotNetFundamentals_InATestProject\DotNetFundamentals_InATestProject.csproj", "{C5210446-6D69-4791-AD7B-1A2E099DDA09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator_RepositoryPattern", "Calculator_RepositoryPattern\Calculator_RepositoryPattern.csproj", "{C9B92D41-8B55-4A51-A320-00EF43C9B868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorRepositoryPattern_Test", "CalculatorRepositoryPattern_Test\CalculatorRepositoryPattern_Test.csproj", "{BE374A66-3039-4C3A-8095-AF3BC73D817E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C5210446-6D69-4791-AD7B-1A2E099DDA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5210446-6D69-4791-AD7B-1A2E099DDA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5210446-6D69-4791-AD7B-1A2E099DDA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B92D41-8B55-4A51-A320-00EF43C9B868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B92D41-8B55-4A51-A320-00EF43C9B868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B92D41-8B55-4A51-A320-00EF43C9B868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B92D41-8B55-4A51-A320-00EF43C9B868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE374A66-3039-4C3A-8095-AF3BC73D817E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE374A66-3039-4C3A-8095-AF3BC73D817E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE374A66-3039-4C3A-8095-AF3BC73D817E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE374A66-3039-4C3A-8095-AF3BC73D817E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
