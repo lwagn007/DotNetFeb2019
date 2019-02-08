@@ -13,7 +13,7 @@ namespace DotNetFundamentals_InATestProject
         [TestMethod]
         public void If_Else()
         {
-            if (2 == 3)
+            if (3 == 3)
             {
                 Console.WriteLine("Of course");
 

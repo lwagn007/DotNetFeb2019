@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CalculatorRepository.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

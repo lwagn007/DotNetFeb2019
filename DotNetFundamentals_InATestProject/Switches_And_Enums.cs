@@ -13,17 +13,17 @@ namespace DotNetFundamentals_InATestProject
         [TestMethod]
         public void Switches()
         {
-            int intput = 90;
+            string intput = "Hello";
 
             switch (intput)
             {
-                case 1:
+                case "Hello":
                     Console.WriteLine("Idk what we are doing exactly.");
                     break;
-                case 2:
+                case "":
                     Console.WriteLine("Answer the question!");
                     break;
-                case 90:
+                case "90":
                     Console.WriteLine("Quick Question");
                     break;
                 default:
@@ -152,5 +152,46 @@ namespace DotNetFundamentals_InATestProject
             else
                 Console.WriteLine("End");
         }
+
+        public enum Dogs
+        {
+            Yorkie = 100, GermanShepherd, Wolf, IrishWolfHound, FinnishSpitz
+        }
+
+        public enum DogSize
+        {
+            small, large, medium, xlarge
+        }
+
+        [TestMethod]
+        public void Enum()
+        {
+            Dogs dog;
+
+            int intput = 10200;
+
+            switch (intput)
+            {
+                case 10200:
+                    dog = Dogs.Yorkie;
+                    break;
+                case 1:
+                    dog = Dogs.GermanShepherd;
+                    break;
+                case 4:
+                    dog = Dogs.IrishWolfHound;
+                    break;
+                case 3:
+                    dog = Dogs.FinnishSpitz;
+                    break;
+                case 2:
+                    dog = Dogs.Wolf;
+                    break;
+                default:
+                    break;
+            }
+        }
+
+
     }
 }

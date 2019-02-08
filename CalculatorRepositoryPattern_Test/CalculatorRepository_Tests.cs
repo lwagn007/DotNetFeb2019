@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace CalculatorRepositoryPattern_Test
 {
     [TestClass]
-    public class UnitTest1
+    public class CalculatorRepository_Tests
     {
         [TestMethod]
         public void CalculatorRepository_AddTwoNumbers_ShouldReturnCorrectInt()
@@ -15,7 +15,7 @@ namespace CalculatorRepositoryPattern_Test
 
             // Act
             int actual = calculatorRepo.AddTwoNumbers(2, 2);
-            
+
             // Assert
             Assert.AreEqual(4, actual);
         }
@@ -66,10 +66,11 @@ namespace CalculatorRepositoryPattern_Test
             CalculatorRepository calculatorRepo = new CalculatorRepository();
 
             // Act
-            int actual = calculatorRepo.RemainderOperator(2,2);
+            int actual = calculatorRepo.RemainderOperator(2, 2);
 
             // Assert
             Assert.AreEqual(0, actual);
+            Dogs 
         }
     }
 }
