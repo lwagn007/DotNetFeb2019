@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator_RepositoryPatter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorRepositoryPattern_Test", "CalculatorRepositoryPattern_Test\CalculatorRepositoryPattern_Test.csproj", "{BE374A66-3039-4C3A-8095-AF3BC73D817E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_Example", "Class_Example\Class_Example.csproj", "{E9675C23-7FFA-4BEA-98E4-EB49CF4DD47D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_Example_Tests", "Class_Example_Tests\Class_Example_Tests.csproj", "{1FF164F5-06DD-4DB2-B970-15EEE448ACDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{BE374A66-3039-4C3A-8095-AF3BC73D817E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE374A66-3039-4C3A-8095-AF3BC73D817E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE374A66-3039-4C3A-8095-AF3BC73D817E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9675C23-7FFA-4BEA-98E4-EB49CF4DD47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9675C23-7FFA-4BEA-98E4-EB49CF4DD47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9675C23-7FFA-4BEA-98E4-EB49CF4DD47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9675C23-7FFA-4BEA-98E4-EB49CF4DD47D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF164F5-06DD-4DB2-B970-15EEE448ACDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF164F5-06DD-4DB2-B970-15EEE448ACDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF164F5-06DD-4DB2-B970-15EEE448ACDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF164F5-06DD-4DB2-B970-15EEE448ACDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

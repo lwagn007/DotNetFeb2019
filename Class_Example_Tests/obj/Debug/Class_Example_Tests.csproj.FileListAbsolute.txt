@@ -1,0 +1,17 @@
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\bin\Debug\Class_Example_Tests.dll
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\bin\Debug\Class_Example_Tests.pdb
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\bin\Debug\Class_Example.exe
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\bin\Debug\Class_Example.pdb
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\bin\Debug\Class_Example.exe.config
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\obj\Debug\Class_Example_Tests.csprojAssemblyReference.cache
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\obj\Debug\Class_Example_Tests.csproj.CoreCompileInputs.cache
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\obj\Debug\Class_Example_Tests.csproj.CopyComplete
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\obj\Debug\Class_Example_Tests.dll
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\Class_Example_Tests\obj\Debug\Class_Example_Tests.pdb
