@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E9675C23-7FFA-4BEA-98E4-EB49CF4DD47D}</ProjectGuid>
+    <ProjectGuid>{D104380D-E8DA-481B-B709-CD86765134D5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Class_Example</RootNamespace>
-    <AssemblyName>Class_Example</AssemblyName>
+    <RootNamespace>StreamingContent_RepositoryPattern</RootNamespace>
+    <AssemblyName>StreamingContent_RepositoryPattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cookie.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="Thanksgiving.cs" />
+    <Compile Include="StreamingContent.cs" />
+    <Compile Include="StreamingContentRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

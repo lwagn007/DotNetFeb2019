@@ -70,7 +70,6 @@ namespace CalculatorRepositoryPattern_Test
 
             // Assert
             Assert.AreEqual(0, actual);
-            Dogs 
         }
     }
 }

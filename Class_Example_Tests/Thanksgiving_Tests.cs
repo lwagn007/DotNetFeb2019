@@ -15,7 +15,10 @@ namespace Class_Example_Tests
             dinner.Name = "Dinner";
             dinner.Type = FoodType.Entree;
 
-            Console.WriteLine(dinner.Type);
+            Thanksgiving dinnerTwo = new Thanksgiving("Dinner At Your Place", true, "Indiana", 50, 0.15d, FoodType.Appetizer);
+
+
+            Thanksgiving dinnerThree = new Thanksgiving("another name");
         }
     }
 }

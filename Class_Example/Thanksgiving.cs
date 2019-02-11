@@ -10,6 +10,7 @@ namespace Class_Example
 
     public class Thanksgiving
     {
+
         public string Name { get; set; }
         public bool PlayGame { get; set; }
         public string Location { get; set; }
@@ -17,6 +18,24 @@ namespace Class_Example
         public double CookTime { get; set; }
         public FoodType Type { get; set; }
 
-        
+        public Thanksgiving(string name, bool playGame, string location, int guestCount, double cookTime, FoodType type)
+        {
+            Name = name;
+            PlayGame = playGame;
+            Location = location;
+            GuestCount = guestCount;
+            CookTime = cookTime;
+            Type = type;
+        }
+
+        public Thanksgiving(string name)
+        {
+            Name = name;
+        }
+
+        public Thanksgiving()
+        {
+
+        }
     }
 }

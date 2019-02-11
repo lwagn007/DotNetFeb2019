@@ -13,6 +13,14 @@ namespace Class_Example
         public int BatchSize { get; set; }
         public bool IsGlutenFree { get; set; }
 
+        public Cookie(string name, string ingredient, int batchSize, bool isGlutenFree)
+        {
+            Name = name;
+            Ingredient = ingredient;
+            BatchSize = batchSize;
+            IsGlutenFree = isGlutenFree;
+        }
+
         public Cookie()
         {
 
