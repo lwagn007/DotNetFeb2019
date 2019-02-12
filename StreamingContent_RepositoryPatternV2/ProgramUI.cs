@@ -96,8 +96,6 @@ namespace StreamingContent_RepositoryPatternV2
             {
                 Console.WriteLine($"{content.Name}\t{content.Duration} Hours\t\t{content.TypeOfGenre}\t{content.IsMovie}");
             }
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
         }
 
         public void PrintMenu()
