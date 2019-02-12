@@ -30,8 +30,10 @@ namespace StreamingContent_RepositoryPatternV2
                         GetUserInput();
                         break;
                     case 3:
+                        RemoveContent();
                         break;
                     case 4:
+                        Console.WriteLine("Have a nice day!");
                         break;
                     default:
                         Console.WriteLine("Please enter an appropriate number.");
@@ -39,6 +41,22 @@ namespace StreamingContent_RepositoryPatternV2
                 }
             }
             Console.ReadLine();
+        }
+
+        private void RemoveContent()
+        {
+            SeeAllContent();
+
+            Console.WriteLine("Enter the name of the content you would like to remove:");
+            string desiredName = Console.ReadLine();
+
+            foreach(StreamingContent content in _listOfContent)
+            {
+                if(desiredName == content.Name)
+                {
+                    _contentRepo.RemoveContentFromList(content);
+                }
+            }
         }
 
         private void SeedData()

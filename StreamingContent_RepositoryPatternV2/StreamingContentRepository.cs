@@ -42,5 +42,10 @@ namespace StreamingContent_RepositoryPatternV2
             }
             return genre;
         }
+
+        public void RemoveContentFromList(StreamingContent content)
+        {
+            _contentList.Remove(content);
+        }
     }
 }
