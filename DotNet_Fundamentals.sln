@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_Example_Tests", "Clas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingContent_RepositoryPattern", "StreamingContent_RepositoryPattern\StreamingContent_RepositoryPattern.csproj", "{D104380D-E8DA-481B-B709-CD86765134D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingContent_RepositoryPatternV2", "StreamingContent_RepositoryPatternV2\StreamingContent_RepositoryPatternV2.csproj", "{ED4CD4FB-76EF-4AD1-BE9E-815CDF57222A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{D104380D-E8DA-481B-B709-CD86765134D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D104380D-E8DA-481B-B709-CD86765134D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D104380D-E8DA-481B-B709-CD86765134D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED4CD4FB-76EF-4AD1-BE9E-815CDF57222A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4CD4FB-76EF-4AD1-BE9E-815CDF57222A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4CD4FB-76EF-4AD1-BE9E-815CDF57222A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4CD4FB-76EF-4AD1-BE9E-815CDF57222A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
