@@ -16,12 +16,15 @@ namespace StreamingContent_RepositoryPatternV2
         internal void Run()
         {
             _listOfContent = _contentRepo.GetContentList();
+            SeedData();
             while (_response != 4)
             {
+                Console.Clear();
                 PrintMenu();
                 switch (_response)
                 {
                     case 1:
+                        SeeAllContent();
                         break;
                     case 2:
                         GetUserInput();
@@ -36,6 +39,46 @@ namespace StreamingContent_RepositoryPatternV2
                 }
             }
             Console.ReadLine();
+        }
+
+        private void SeedData()
+        {
+            //Different ways to initialize values for our POCO's (Plain Old Csharp Object)
+            StreamingContent contentTwo = new StreamingContent("Bob's Burgers", 0.5, GenreType.Comedy, false);
+
+            StreamingContent contentThree = new StreamingContent();
+            contentThree.Name = "Transformers";
+            contentThree.Duration = 2.4;
+            contentThree.TypeOfGenre = GenreType.Action;
+            contentThree.IsMovie = true;
+
+            StreamingContent contentFour = new StreamingContent()
+            {
+                Name = "American Horror Story",
+                Duration = 1,
+                TypeOfGenre = GenreType.Thriller,
+                IsMovie = false
+            };
+
+            //Even though the values are not set this is still a instance of StreamingContent
+            StreamingContent contentFive = new StreamingContent();
+        
+            _contentRepo.AddContentToList(new StreamingContent("Star Wars", 2.1, GenreType.Action, true));
+            _contentRepo.AddContentToList(contentTwo);
+            _contentRepo.AddContentToList(contentThree);
+            _contentRepo.AddContentToList(contentFour);
+            _contentRepo.AddContentToList(contentFive);
+        }
+
+        private void SeeAllContent()
+        {
+            Console.WriteLine("Content Name\tContent Duration\tGenre\tIs it a Movie");
+            foreach (StreamingContent content in _listOfContent)
+            {
+                Console.WriteLine($"{content.Name}\t{content.Duration} Hours\t\t{content.TypeOfGenre}\t{content.IsMovie}");
+            }
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
         }
 
         public void PrintMenu()

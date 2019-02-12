@@ -17,17 +17,17 @@ namespace StreamingContent_RepositoryPatternV2
         public GenreType TypeOfGenre { get; set; }
         public bool IsMovie { get; set; }
 
-        public StreamingContent()
-        {
-
-        }
-
         public StreamingContent(string name, double duration, GenreType genreType, bool isMovie)
         {
             Name = name;
             Duration = duration;
             TypeOfGenre = genreType;
             IsMovie = isMovie;
+        }
+
+        public StreamingContent()
+        {
+
         }
     }
 }
