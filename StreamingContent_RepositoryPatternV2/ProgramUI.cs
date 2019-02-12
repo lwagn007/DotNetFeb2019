@@ -55,6 +55,7 @@ namespace StreamingContent_RepositoryPatternV2
                 if(desiredName == content.Name)
                 {
                     _contentRepo.RemoveContentFromList(content);
+                    break;
                 }
             }
         }
