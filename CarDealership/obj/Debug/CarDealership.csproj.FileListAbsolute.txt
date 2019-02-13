@@ -1,0 +1,7 @@
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\CarDealership\obj\Debug\CarDealership.csprojAssemblyReference.cache
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\CarDealership\obj\Debug\CarDealership.csproj.CoreCompileInputs.cache
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\CarDealership\bin\Debug\CarDealership.exe.config
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\CarDealership\bin\Debug\CarDealership.exe
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\CarDealership\bin\Debug\CarDealership.pdb
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\CarDealership\obj\Debug\CarDealership.exe
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\CarDealership\obj\Debug\CarDealership.pdb

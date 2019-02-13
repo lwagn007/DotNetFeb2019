@@ -19,11 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingContent_Repository
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingContent_RepositoryPatternV2", "StreamingContent_RepositoryPatternV2\StreamingContent_RepositoryPatternV2.csproj", "{ED4CD4FB-76EF-4AD1-BE9E-815CDF57222A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D21AFEE3-305C-44CD-911B-EBE063CBB77E}"
-	ProjectSection(SolutionItems) = preProject
-		CarLotPrompt.txt = CarLotPrompt.txt
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingContent_RepositoryPattern_Tests", "StreamingContent_RepositoryPattern_Tests\StreamingContent_RepositoryPattern_Tests.csproj", "{43817834-9CA6-4F87-8163-871B97C4AE74}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator_RepositoryPatternV2", "Calculator_RepositoryPatternV2\Calculator_RepositoryPatternV2.csproj", "{F9E32C6A-1A6F-4650-9DAE-5E24EA378546}"
@@ -31,6 +26,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator_RepositoryPatternV2_Tests", "Calculator_RepositoryPatternV2_Tests\Calculator_RepositoryPatternV2_Tests.csproj", "{DA788CE8-C098-49C4-B2D9-C481ABEF9AC7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingContent_RepositoryPatternV2_Tests", "StreamingContent_RepositoryPatternV2_Tests\StreamingContent_RepositoryPatternV2_Tests.csproj", "{5BF43F13-B78C-4C89-B24B-E9B76820C8F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealership", "CarDealership\CarDealership.csproj", "{8D759CB3-E8BD-41E6-BD80-37DA52636CB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDealership_Tests", "CarDealership_Tests\CarDealership_Tests.csproj", "{BF1810F9-1E8A-4AFD-83F5-84494F53883E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +85,14 @@ Global
 		{5BF43F13-B78C-4C89-B24B-E9B76820C8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BF43F13-B78C-4C89-B24B-E9B76820C8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BF43F13-B78C-4C89-B24B-E9B76820C8F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D759CB3-E8BD-41E6-BD80-37DA52636CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D759CB3-E8BD-41E6-BD80-37DA52636CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D759CB3-E8BD-41E6-BD80-37DA52636CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D759CB3-E8BD-41E6-BD80-37DA52636CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF1810F9-1E8A-4AFD-83F5-84494F53883E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1810F9-1E8A-4AFD-83F5-84494F53883E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1810F9-1E8A-4AFD-83F5-84494F53883E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1810F9-1E8A-4AFD-83F5-84494F53883E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
