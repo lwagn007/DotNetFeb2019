@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StreamingContent_RepositoryPattern
 {
-    class StreamingContentRepository
+    public class StreamingContentRepository
     {
         List<StreamingContent> _listOfContent = new List<StreamingContent>();
 

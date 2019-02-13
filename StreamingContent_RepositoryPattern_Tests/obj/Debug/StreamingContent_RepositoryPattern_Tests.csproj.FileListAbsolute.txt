@@ -1,0 +1,2 @@
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\StreamingContent_RepositoryPattern_Tests\obj\Debug\StreamingContent_RepositoryPattern_Tests.csprojAssemblyReference.cache
+C:\DotNetFeb2019\DotNetClass\DotNet_Fundamentals\StreamingContent_RepositoryPattern_Tests\obj\Debug\StreamingContent_RepositoryPattern_Tests.csproj.CoreCompileInputs.cache
