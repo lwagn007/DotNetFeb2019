@@ -74,5 +74,21 @@ namespace StreamingContent_RepositoryPattern_Tests
             // Assert
             Assert.AreEqual(expected, actual);
         }
+
+        [DataTestMethod]
+        [DataRow(1, Genre.Comedy)]
+        [DataRow(3, Genre.Action)]
+        [DataRow(5, Genre.Bromance)]
+        public void StreamingContent_GetGenreFromInt_ShouldReturnCorrectEnumValue(int x, Genre y)
+        {
+            // Arrange
+            StreamingContentRepository _contentRepo = new StreamingContentRepository();
+
+            // Act
+            var actual = _contentRepo.GetGenreFromInt(x);
+
+            // Assert
+            Assert.AreEqual(y, actual);
+        }
     }
 }
