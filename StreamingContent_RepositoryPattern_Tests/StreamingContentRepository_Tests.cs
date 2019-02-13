@@ -79,7 +79,7 @@ namespace StreamingContent_RepositoryPattern_Tests
         [DataRow(1, Genre.Comedy)]
         [DataRow(3, Genre.Action)]
         [DataRow(5, Genre.Bromance)]
-        public void StreamingContent_GetGenreFromInt_ShouldReturnCorrectEnumValue(int x, Genre y)
+        public void StreamingContentRepository_GetGenreFromInt_ShouldReturnCorrectEnumValue(int x, Genre y)
         {
             // Arrange
             StreamingContentRepository _contentRepo = new StreamingContentRepository();
@@ -89,6 +89,69 @@ namespace StreamingContent_RepositoryPattern_Tests
 
             // Assert
             Assert.AreEqual(y, actual);
+        }
+
+        [TestMethod]
+        public void StreamingContentRepository_EnqueueContent_ShouldReturnCorrectCount()
+        {
+            // Arrange
+            StreamingContentRepository _contentRepo = new StreamingContentRepository();
+            StreamingContent content = new StreamingContent();
+            StreamingContent contentTwo = new StreamingContent();
+
+            _contentRepo.EnqueueContent(content);
+            _contentRepo.EnqueueContent(contentTwo);
+
+            // Act
+            int actual = _contentRepo.GetContentQueue().Count;
+            int expected = 2;
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void StreamingContentRepository_Dequeue()
+        {
+            StreamingContentRepository _contentRepo = new StreamingContentRepository();
+            StreamingContent content = new StreamingContent();
+            StreamingContent contentTwo = new StreamingContent();
+
+            _contentRepo.EnqueueContent(content);
+            _contentRepo.EnqueueContent(contentTwo);
+
+            _contentRepo.DequeueContent();
+
+            // Act
+            int actual = _contentRepo.GetContentQueue().Count;
+            int expected = 1;
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void StreamingContentRepository_EnqueueFromList_BoolShouldReturnTrue()
+        {
+            // Arrange
+            StreamingContentRepository _contentRepo = new StreamingContentRepository();
+
+            StreamingContent content = new StreamingContent();
+            content.ContentTitle = "Star Wars";
+            content.Genre = Genre.Action;
+            StreamingContent contentTwo = new StreamingContent();
+            contentTwo.ContentTitle = "Spider-Man";
+            contentTwo.Genre = Genre.Action;
+
+            _contentRepo.AddContentToList(content);
+            _contentRepo.AddContentToList(contentTwo);
+
+            // Act
+            var actual = _contentRepo.EnqueueFromList("Spider-Man", Genre.Action);
+            var expected = true;
+
+            // Assert
+            Assert.AreEqual(expected, actual);
         }
     }
 }

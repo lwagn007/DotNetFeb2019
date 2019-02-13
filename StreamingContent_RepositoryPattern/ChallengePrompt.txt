@@ -1,0 +1,64 @@
+﻿﻿Streaming Content Challenge Prompt
+
+Create a new console application. We are going to be building
+a proof of concept for a streaming company. Right now they will 
+only be streaming movies and tv shows.
+We will need a 
+Streaming Content object class (this will hold our properties)
+Our properties will be ContentName, ContentType (tv show or movie),
+ContentRating, ContentTime, ContentGenre (action, scifi, etc)
+
+
+Program.cs which will be already built for us when we create the
+console app.
+
+We need a ProgramUI.cs where our Console commands and prompts for the 
+user to know where to go.
+
+And a repository class to hold our methods such as adding to a list,
+removing from a list, getting the list from our repository and remove
+from a list. These methods would not be considered low fruit so 
+don't start with these.
+
+We will also need a unit test project for the methods in our 
+Repository.
+
+The user should be able to input the values
+for the StreamingContent object properties, They should be able to
+see all of the current StreamingContent objects, and remove a object.﻿
+
+/*Smaller*/
+
+A popular streaming company has asked you to write a console 
+app to help them keep track of available content.
+
+They need to be able to see all their StreamingContent, Add 
+new content, and remove content. They also would like a menu
+for them to easily navigate through the application.
+
+
+Using the respository pattern, create an application that allows
+the user to create new content, see all content, and remove content. 
+You should have a program user interface and method repository. 
+
+
+/*Prompt v2*/
+﻿A popular streaming company has asked you to write a console 
+app to help them keep track of their streaming service. 
+
+
+They need to be able to see all their StreamingContent, Add 
+new content, and remove content. They also would like a menu
+for them to easily navigate through the application. 
+
+They also want to add a new feature that allows a user to create a 
+queue of content they would like to watch. They would need to be able
+to watch a show and add a new show to the list.
+
+
+Using the respository pattern, create an application that allows
+the user to create new content, see all content, and remove content. 
+You should have a program user interface and method repository. 
+
+You should also use a Queue to allow the company to create a Queue of 
+content for a customer.
