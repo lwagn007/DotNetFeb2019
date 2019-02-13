@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace StreamingContent_RepositoryPatternV2
 {
     //This is where we will house our methods that do not require Console.
-    internal class StreamingContentRepository
+    public class StreamingContentRepository
     {
         List<StreamingContent> _contentList;
 

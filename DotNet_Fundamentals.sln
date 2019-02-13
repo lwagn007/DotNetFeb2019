@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator_RepositoryPatter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator_RepositoryPatternV2_Tests", "Calculator_RepositoryPatternV2_Tests\Calculator_RepositoryPatternV2_Tests.csproj", "{DA788CE8-C098-49C4-B2D9-C481ABEF9AC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingContent_RepositoryPatternV2_Tests", "StreamingContent_RepositoryPatternV2_Tests\StreamingContent_RepositoryPatternV2_Tests.csproj", "{5BF43F13-B78C-4C89-B24B-E9B76820C8F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,10 @@ Global
 		{DA788CE8-C098-49C4-B2D9-C481ABEF9AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA788CE8-C098-49C4-B2D9-C481ABEF9AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA788CE8-C098-49C4-B2D9-C481ABEF9AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF43F13-B78C-4C89-B24B-E9B76820C8F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF43F13-B78C-4C89-B24B-E9B76820C8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF43F13-B78C-4C89-B24B-E9B76820C8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF43F13-B78C-4C89-B24B-E9B76820C8F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
