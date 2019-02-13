@@ -15,6 +15,7 @@ namespace StreamingContent_RepositoryPattern_Tests
             StreamingContentRepository _contentRepo = new StreamingContentRepository();
             List<StreamingContent> contentList = _contentRepo.GetContentList();
             StreamingContent content = new StreamingContent();
+            _contentRepo.AddContentToList(content);
 
             // Act
             int actual = contentList.Count;
@@ -34,6 +35,9 @@ namespace StreamingContent_RepositoryPattern_Tests
             StreamingContent content = new StreamingContent();
             StreamingContent contentTwo = new StreamingContent();
 
+            _contentRepo.AddContentToList(content);
+            _contentRepo.AddContentToList(contentTwo);
+
             _contentRepo.RemoveContentFromList(content);
 
             // Act
@@ -50,7 +54,6 @@ namespace StreamingContent_RepositoryPattern_Tests
             //Testing a method that returns a new list with filtered results based on genre
             // Arrange
             StreamingContentRepository _contentRepo = new StreamingContentRepository();
-            List<StreamingContent> contentList = _contentRepo.GetStreamingContentByGenre(Genre.Action);
 
             //Three instances of the StreamingContent class, our POCO (Plain Old CSharp Object) with value for the genre property. 
             StreamingContent content = new StreamingContent();
@@ -65,7 +68,7 @@ namespace StreamingContent_RepositoryPattern_Tests
             _contentRepo.AddContentToList(contentThree);
 
             // Act
-            int actual = contentList.Count;
+            int actual = _contentRepo.GetStreamingContentByGenre(Genre.Action).Count;
             int expected = 2;
 
             // Assert
